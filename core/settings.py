@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-LOCAL_DATABASE = True
+LOCAL_DATABASE = False
 if LOCAL_DATABASE:
     DATABASES = {
         'default': {
